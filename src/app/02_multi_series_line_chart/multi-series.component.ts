@@ -50,7 +50,7 @@ export class MultiSeriesComponent implements OnInit {
     
     var format = d3.format(",d");
     
-    var color = d3.scaleOrdinal(d3.schemeCategory20c);
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
     
     var pack = d3.pack()
         .size([width, height])
