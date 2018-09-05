@@ -10,12 +10,8 @@ export class AppComponent {
 
     examples = [
         {
-            title: 'Line Chart',
-            route: '/line-chart'
-        },
-        {
-            title: 'Multi Series Line Chart',
-            route: '/multi-series'
+            title: 'Tree Map',
+            route: '/tree-map'
         },
         {
             title: 'Bar Chart',
@@ -30,8 +26,8 @@ export class AppComponent {
             route: '/brush-zoom'
         },
         {
-            title: 'Pie Chart',
-            route: '/pie-chart'
+            title: 'Buble Chart',
+            route: '/bubule-chart'
         },
         {
             title: 'Donut chart',

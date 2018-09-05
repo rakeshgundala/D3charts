@@ -15,15 +15,14 @@ import { PieChartComponent } from './06_pie_chart/pie-chart.component';
 import { DonutChartComponent } from './07_donut_chart/donut-chart.component';
 
 const appRoutes: Routes = [
-    { path: 'line-chart', component: LineChartComponent },
-    { path: 'multi-series', component: MultiSeriesComponent },
+    { path: 'tree-map', component: LineChartComponent },
     { path: 'bar-chart', component: BarChartComponent },
     { path: 'stacked-bar-chart', component: StackedBarChartComponent },
     { path: 'brush-zoom', component: BrushZoomComponent },
-    { path: 'pie-chart', component: PieChartComponent },
+    { path: 'bubule-chart', component: PieChartComponent },
     { path: 'donut-chart', component: DonutChartComponent },
     { path: '',
-        redirectTo: '/line-chart',
+        redirectTo: '/tree-map',
         pathMatch: 'full'
     },
     { path: '**', component: LineChartComponent }
